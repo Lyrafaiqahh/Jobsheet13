@@ -15,7 +15,13 @@ public class UcapanTerimaKasih_15 {
 
     }
 
+    public static void UcapanTambahan(String ucapan){
+    System.out.println(ucapan);
+    }
+
     public static void main(String[] args) {
         UcapanTerimaKasih();
+        String ucapan = "Terima Kasih Pak..Bu...Semoga Sehat Selalu";
+        UcapanTambahan(ucapan);
     }
 }
